@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6A869CF17743AA9006B1FAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A869CE17743AA9006B1FAA /* UIKit.framework */; };
+		B6A869D117743AA9006B1FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A869D017743AA9006B1FAA /* Foundation.framework */; };
+		B6A869D317743AA9006B1FAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A869D217743AA9006B1FAA /* CoreGraphics.framework */; };
+		B6A869D917743AA9006B1FAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6A869D717743AA9006B1FAA /* InfoPlist.strings */; };
+		B6A869DB17743AA9006B1FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A869DA17743AA9006B1FAA /* main.m */; };
+		B6A869DF17743AA9006B1FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A869DE17743AA9006B1FAA /* AppDelegate.m */; };
+		B6A869E117743AA9006B1FAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A869E017743AA9006B1FAA /* Default.png */; };
+		B6A869E317743AA9006B1FAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A869E217743AA9006B1FAA /* Default@2x.png */; };
+		B6A869E517743AA9006B1FAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A869E417743AA9006B1FAA /* Default-568h@2x.png */; };
+		B6A869E817743AA9006B1FAA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A869E617743AA9006B1FAA /* MainStoryboard.storyboard */; };
+		B6A869EB17743AA9006B1FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A869EA17743AA9006B1FAA /* ViewController.m */; };
+		B6BA4BF11777427700D8BDD7 /* Der-Spiegel-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6BA4BF01777427700D8BDD7 /* Der-Spiegel-Logo.jpg */; };
+		B6BA4BF3177745D700D8BDD7 /* cxep4v80xqmxwe9pd7kw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6BA4BF2177745D700D8BDD7 /* cxep4v80xqmxwe9pd7kw.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6A869CB17743AA9006B1FAA /* Stadtbibliothek-Nuernberg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stadtbibliothek-Nuernberg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A869CE17743AA9006B1FAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6A869D017743AA9006B1FAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6A869D217743AA9006B1FAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6A869D617743AA9006B1FAA /* Stadtbibliothek-Nuernberg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stadtbibliothek-Nuernberg-Info.plist"; sourceTree = "<group>"; };
+		B6A869D817743AA9006B1FAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6A869DA17743AA9006B1FAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6A869DC17743AA9006B1FAA /* Stadtbibliothek-Nuernberg-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stadtbibliothek-Nuernberg-Prefix.pch"; sourceTree = "<group>"; };
+		B6A869DD17743AA9006B1FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6A869DE17743AA9006B1FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6A869E017743AA9006B1FAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B6A869E217743AA9006B1FAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B6A869E417743AA9006B1FAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B6A869E717743AA9006B1FAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B6A869E917743AA9006B1FAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6A869EA17743AA9006B1FAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6BA4BF01777427700D8BDD7 /* Der-Spiegel-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Der-Spiegel-Logo.jpg"; sourceTree = "<group>"; };
+		B6BA4BF2177745D700D8BDD7 /* cxep4v80xqmxwe9pd7kw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cxep4v80xqmxwe9pd7kw.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6A869C817743AA9006B1FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A869CF17743AA9006B1FAA /* UIKit.framework in Frameworks */,
+				B6A869D117743AA9006B1FAA /* Foundation.framework in Frameworks */,
+				B6A869D317743AA9006B1FAA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6A869C217743AA9006B1FAA = {
+			isa = PBXGroup;
+			children = (
+				B6A869D417743AA9006B1FAA /* Stadtbibliothek-Nuernberg */,
+				B6A869CD17743AA9006B1FAA /* Frameworks */,
+				B6A869CC17743AA9006B1FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6A869CC17743AA9006B1FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6A869CB17743AA9006B1FAA /* Stadtbibliothek-Nuernberg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6A869CD17743AA9006B1FAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A869CE17743AA9006B1FAA /* UIKit.framework */,
+				B6A869D017743AA9006B1FAA /* Foundation.framework */,
+				B6A869D217743AA9006B1FAA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6A869D417743AA9006B1FAA /* Stadtbibliothek-Nuernberg */ = {
+			isa = PBXGroup;
+			children = (
+				B6A869DD17743AA9006B1FAA /* AppDelegate.h */,
+				B6A869DE17743AA9006B1FAA /* AppDelegate.m */,
+				B6A869E617743AA9006B1FAA /* MainStoryboard.storyboard */,
+				B6A869E917743AA9006B1FAA /* ViewController.h */,
+				B6A869EA17743AA9006B1FAA /* ViewController.m */,
+				B6A869D517743AA9006B1FAA /* Supporting Files */,
+			);
+			path = "Stadtbibliothek-Nuernberg";
+			sourceTree = "<group>";
+		};
+		B6A869D517743AA9006B1FAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6A869D617743AA9006B1FAA /* Stadtbibliothek-Nuernberg-Info.plist */,
+				B6A869D717743AA9006B1FAA /* InfoPlist.strings */,
+				B6BA4BF2177745D700D8BDD7 /* cxep4v80xqmxwe9pd7kw.jpg */,
+				B6BA4BF01777427700D8BDD7 /* Der-Spiegel-Logo.jpg */,
+				B6A869DA17743AA9006B1FAA /* main.m */,
+				B6A869DC17743AA9006B1FAA /* Stadtbibliothek-Nuernberg-Prefix.pch */,
+				B6A869E017743AA9006B1FAA /* Default.png */,
+				B6A869E217743AA9006B1FAA /* Default@2x.png */,
+				B6A869E417743AA9006B1FAA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6A869CA17743AA9006B1FAA /* Stadtbibliothek-Nuernberg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A869EE17743AA9006B1FAA /* Build configuration list for PBXNativeTarget "Stadtbibliothek-Nuernberg" */;
+			buildPhases = (
+				B6A869C717743AA9006B1FAA /* Sources */,
+				B6A869C817743AA9006B1FAA /* Frameworks */,
+				B6A869C917743AA9006B1FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stadtbibliothek-Nuernberg";
+			productName = "Stadtbibliothek-Nuernberg";
+			productReference = B6A869CB17743AA9006B1FAA /* Stadtbibliothek-Nuernberg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6A869C317743AA9006B1FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = B3;
+			};
+			buildConfigurationList = B6A869C617743AA9006B1FAA /* Build configuration list for PBXProject "Stadtbibliothek-Nuernberg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6A869C217743AA9006B1FAA;
+			productRefGroup = B6A869CC17743AA9006B1FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6A869CA17743AA9006B1FAA /* Stadtbibliothek-Nuernberg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6A869C917743AA9006B1FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A869D917743AA9006B1FAA /* InfoPlist.strings in Resources */,
+				B6A869E117743AA9006B1FAA /* Default.png in Resources */,
+				B6A869E317743AA9006B1FAA /* Default@2x.png in Resources */,
+				B6A869E517743AA9006B1FAA /* Default-568h@2x.png in Resources */,
+				B6A869E817743AA9006B1FAA /* MainStoryboard.storyboard in Resources */,
+				B6BA4BF11777427700D8BDD7 /* Der-Spiegel-Logo.jpg in Resources */,
+				B6BA4BF3177745D700D8BDD7 /* cxep4v80xqmxwe9pd7kw.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6A869C717743AA9006B1FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A869DB17743AA9006B1FAA /* main.m in Sources */,
+				B6A869DF17743AA9006B1FAA /* AppDelegate.m in Sources */,
+				B6A869EB17743AA9006B1FAA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6A869D717743AA9006B1FAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A869D817743AA9006B1FAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6A869E617743AA9006B1FAA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A869E717743AA9006B1FAA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6A869EC17743AA9006B1FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6A869ED17743AA9006B1FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6A869EF17743AA9006B1FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stadtbibliothek-Nuernberg/Stadtbibliothek-Nuernberg-Prefix.pch";
+				INFOPLIST_FILE = "Stadtbibliothek-Nuernberg/Stadtbibliothek-Nuernberg-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6A869F017743AA9006B1FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stadtbibliothek-Nuernberg/Stadtbibliothek-Nuernberg-Prefix.pch";
+				INFOPLIST_FILE = "Stadtbibliothek-Nuernberg/Stadtbibliothek-Nuernberg-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6A869C617743AA9006B1FAA /* Build configuration list for PBXProject "Stadtbibliothek-Nuernberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A869EC17743AA9006B1FAA /* Debug */,
+				B6A869ED17743AA9006B1FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A869EE17743AA9006B1FAA /* Build configuration list for PBXNativeTarget "Stadtbibliothek-Nuernberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A869EF17743AA9006B1FAA /* Debug */,
+				B6A869F017743AA9006B1FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6A869C317743AA9006B1FAA /* Project object */;
+}
