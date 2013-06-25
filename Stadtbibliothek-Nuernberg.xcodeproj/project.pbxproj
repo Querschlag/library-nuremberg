@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A081BDF177973810019A7DF /* AccountSettingsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A081BDE177973810019A7DF /* AccountSettingsTVC.m */; };
+		3AC9C7681779695000713435 /* MediaReserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC9C7671779695000713435 /* MediaReserveViewController.m */; };
+		3AC9C76D17796AFA00713435 /* MediaRentalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC9C76C17796AFA00713435 /* MediaRentalViewController.m */; };
 		B6A869CF17743AA9006B1FAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A869CE17743AA9006B1FAA /* UIKit.framework */; };
 		B6A869D117743AA9006B1FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A869D017743AA9006B1FAA /* Foundation.framework */; };
 		B6A869D317743AA9006B1FAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A869D217743AA9006B1FAA /* CoreGraphics.framework */; };
@@ -23,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A081BDD177973810019A7DF /* AccountSettingsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSettingsTVC.h; sourceTree = "<group>"; };
+		3A081BDE177973810019A7DF /* AccountSettingsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSettingsTVC.m; sourceTree = "<group>"; };
+		3AC9C7661779695000713435 /* MediaReserveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaReserveViewController.h; sourceTree = "<group>"; };
+		3AC9C7671779695000713435 /* MediaReserveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaReserveViewController.m; sourceTree = "<group>"; };
+		3AC9C76B17796AFA00713435 /* MediaRentalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaRentalViewController.h; sourceTree = "<group>"; };
+		3AC9C76C17796AFA00713435 /* MediaRentalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaRentalViewController.m; sourceTree = "<group>"; };
 		B6A869CB17743AA9006B1FAA /* Stadtbibliothek-Nuernberg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stadtbibliothek-Nuernberg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A869CE17743AA9006B1FAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6A869D017743AA9006B1FAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +66,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A081BDC1779734C0019A7DF /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				3A081BDD177973810019A7DF /* AccountSettingsTVC.h */,
+				3A081BDE177973810019A7DF /* AccountSettingsTVC.m */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		3AC9C7691779695B00713435 /* Media Rental */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Media Rental";
+			sourceTree = "<group>";
+		};
+		3AC9C76A1779696500713435 /* Media Reserve */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Media Reserve";
+			sourceTree = "<group>";
+		};
 		B6A869C217743AA9006B1FAA = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +124,13 @@
 				B6A869E617743AA9006B1FAA /* MainStoryboard.storyboard */,
 				B6A869E917743AA9006B1FAA /* ViewController.h */,
 				B6A869EA17743AA9006B1FAA /* ViewController.m */,
+				3AC9C76A1779696500713435 /* Media Reserve */,
+				3AC9C7661779695000713435 /* MediaReserveViewController.h */,
+				3AC9C7671779695000713435 /* MediaReserveViewController.m */,
+				3AC9C7691779695B00713435 /* Media Rental */,
+				3AC9C76B17796AFA00713435 /* MediaRentalViewController.h */,
+				3AC9C76C17796AFA00713435 /* MediaRentalViewController.m */,
+				3A081BDC1779734C0019A7DF /* Account */,
 				B6A869D517743AA9006B1FAA /* Supporting Files */,
 			);
 			path = "Stadtbibliothek-Nuernberg";
@@ -184,6 +223,9 @@
 				B6A869DB17743AA9006B1FAA /* main.m in Sources */,
 				B6A869DF17743AA9006B1FAA /* AppDelegate.m in Sources */,
 				B6A869EB17743AA9006B1FAA /* ViewController.m in Sources */,
+				3AC9C7681779695000713435 /* MediaReserveViewController.m in Sources */,
+				3AC9C76D17796AFA00713435 /* MediaRentalViewController.m in Sources */,
+				3A081BDF177973810019A7DF /* AccountSettingsTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
